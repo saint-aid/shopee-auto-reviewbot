@@ -16,22 +16,22 @@ Shopee 셀러를 위한 리뷰 자동 응답 시스템입니다.
 5. 리뷰 자동 등록
 
 
+## 파이프라인 구조 및 흐름
 
 ✅ 전체 MVP 자동화 흐름
-csharp
-복사
-편집
 [1단계] 리뷰 및 셀러 응답 크롤링
       ↓
 [2단계] GPT 리뷰 분석 + 응답 생성
       ↓
 [3단계] RPA 자동으로 리뷰에 응답 등록
+
+
 🔍 1단계: 리뷰 및 셀러 응답 크롤링
 Shopee 관리자 페이지에서 리뷰(content)와 판매자 응답(seller_response)을 가져옵니다.
 
 결과는 reviews.csv로 저장됩니다.
 
-사용 도구: app/crawler.py, tools/login_and_save_cookies.py
+사용 도구: app/crawler.py
 
 🧠 2단계: GPT로 리뷰 분석 및 응답 생성
 GPT API를 통해 리뷰 내용을 분석하고, 자동 응답 문장을 생성합니다.
@@ -49,6 +49,9 @@ GPT가 만든 응답을 Shopee 관리자 페이지에 자동으로 입력하고 
 
 사용 도구: app/rpa.py
 
+
+
+
 🔁 전체 흐름 요약
 | 단계 | 작업 내용          | 결과 파일                      | 사용 코드            |
 | -- | -------------- | -------------------------- | ---------------- |
@@ -58,11 +61,6 @@ GPT가 만든 응답을 Shopee 관리자 페이지에 자동으로 입력하고 
 
 
 
-
-
-
-
-
-## streamlit 예시
+## Streamlit 예시화면
 ![shopee 자동응답기 mvp](https://github.com/user-attachments/assets/1b297702-e0b9-4839-9f92-96a8385b113c)
 
