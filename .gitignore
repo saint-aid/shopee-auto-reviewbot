@@ -1,0 +1,15 @@
+# 환경 변수 및 개인정보
+.env
+data/cookies.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
