@@ -21,11 +21,11 @@ GPT가 생성한 자동 응답을 Shopee 판매자 관리자 페이지에 자동
 
 ## 사용 방법
 1. .env 파일을 만들고 OPENAI_API_KEY = [API key 입력]
-1. `streamlit run app.py`
-2. Shop ID 입력
-3. 로그인 진행
-4. 리뷰 수집 및 응답 생성
-5. 리뷰 자동 등록
+2. `streamlit run app.py`
+3. Shop ID 입력
+4. 로그인 진행
+5. 리뷰 수집 및 응답 생성
+6. 리뷰 자동 등록
 
 
 ## 자동 응답 흐름
