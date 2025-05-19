@@ -18,4 +18,5 @@ Shopee 셀러를 위한 리뷰 자동 응답 시스템입니다.
 
 
 ## streamlit 예시
-![shopee 자동응답기 mvp](https://github.com/user-attachments/assets/68a0829d-f642-4467-81a4-f620163dbe68)
+![shopee 자동응답기 mvp](https://github.com/user-attachments/assets/1b297702-e0b9-4839-9f92-96a8385b113c)
+
