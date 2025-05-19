@@ -1,5 +1,5 @@
 # Shopee 리뷰 자동 응답 MVP
-*shopee-review-autobot*
+*shopee-reviewbot*
 
 ✅ 목적
 Shopee 셀러를 위한 리뷰 자동 응답 시스템입니다.
@@ -29,20 +29,16 @@ GPT가 생성한 자동 응답을 Shopee 판매자 관리자 페이지에 자동
 
 ## 자동 응답 흐름
 1. 로그인 세션 복원
+   - cookies.pkl로 로그인 상태 복구
 
- - cookies.pkl로 로그인 상태 복구
-
-2. 리뷰 리스트 페이지 이동
-
- - 리뷰 관리 URL로 이동 (예: https://seller.shopee.sg/portal/product/rating)
+4. 리뷰 리스트 페이지 이동
+   - 리뷰 관리 URL로 이동 (예: https://seller.shopee.sg/portal/product/rating)
 
 3. 리뷰 식별 (review ID or reviewer info 등)
+   - csv의 리뷰 content를 기준으로 DOM 내 리뷰와 매칭
 
- - csv의 리뷰 content를 기준으로 DOM 내 리뷰와 매칭
-
-4. 답변 입력창 클릭 후 응답 입력
-
- - GPT 응답을 textarea에 입력
+5. 답변 입력창 클릭 후 응답 입력
+   - GPT 응답을 textarea에 입력
 
 5. [제출/등록] 버튼 클릭
 
