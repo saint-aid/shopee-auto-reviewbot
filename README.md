@@ -20,6 +20,7 @@ GPT가 생성한 자동 응답을 Shopee 판매자 관리자 페이지에 자동
 2. 필요한 패키지 설치: `pip install -r requirements.txt`
 
 ## 사용 방법
+1. .env 파일을 만들고 OPENAI_API_KEY = [API key 입력]
 1. `streamlit run app.py`
 2. Shop ID 입력
 3. 로그인 진행
