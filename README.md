@@ -1,5 +1,5 @@
 # Shopee 리뷰 자동 응답 MVP
-*shopee-reviewbot*
+🤖*shopee-reviewbot*
 
 ✅ 목적
 Shopee 셀러를 위한 리뷰 자동 응답 시스템입니다.
