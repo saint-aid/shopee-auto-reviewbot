@@ -1,4 +1,4 @@
-# Shopee 리뷰 자동 응답 MVP
+# GPT를 이용한 Shopee 리뷰 자동 응답 MVP
 🤖*shopee-reviewbot*
 
 ✅ 목적
